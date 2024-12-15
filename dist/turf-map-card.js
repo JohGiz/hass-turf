@@ -7,7 +7,7 @@ class TurfMapCard extends HTMLElement {
       // Initialize the content if it's not there yet.
       if (!this.content) {
         this.innerHTML = `
-          <ha-card header="Turf-map">
+          <ha-card header="Turf map">
             <div class="card-content">
             </div>
           </ha-card>
